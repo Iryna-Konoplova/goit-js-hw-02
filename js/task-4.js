@@ -7,6 +7,8 @@
 
 const formatString = function(string) {
   // твой код
+  const message = string.length <= 40 ? string : `${string.slice(0, 39)} ...`;
+  return message;
 };
 
 /*
